@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidPos</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="supplier">Supplier</string>
+    <string name="customer">Customer</string>
+    <string name="category">Category</string>
+    <string name="product">Product</string>
+    <string name="sales_transaction">Sales Transaction</string>
+    <string name="purchase_transaction">Purchase Transaction</string>
+    <string name="list_dues">List Dues</string>
+    <string name="sales_returns">Sales Returns</string>
+</resources>
