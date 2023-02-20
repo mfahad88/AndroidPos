@@ -9,4 +9,5 @@
     <string name="purchase_transaction">Purchase Transaction</string>
     <string name="list_dues">List Dues</string>
     <string name="sales_returns">Sales Returns</string>
+    <string name="sales">Sales</string>
 </resources>
