@@ -10,4 +10,6 @@
     <string name="list_dues">List Dues</string>
     <string name="sales_returns">Sales Returns</string>
     <string name="sales">Sales</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

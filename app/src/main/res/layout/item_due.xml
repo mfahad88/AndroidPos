@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/DueBody"
+        android:id="@+id/textInvoiceNo"
+        tools:text="InvoiceNo" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/DueBody"
+        android:id="@+id/textCustomerName"
+        tools:text="CustomerName" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/DueBody"
+        android:id="@+id/textTotalItems"
+        tools:text="Total Items" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/DueBody"
+        android:id="@+id/textTotalPrice"
+        tools:text="Total Price" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/DueBody"
+        android:id="@+id/textContact"
+        tools:text="Contact" />
+
+</LinearLayout>
