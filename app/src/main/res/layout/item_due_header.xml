@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/Heading"
+        android:gravity="center"
         android:text="InvoiceNo" />
 
     <TextView
@@ -17,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/Heading"
+        android:gravity="center"
         android:text="CustomerName" />
 
     <TextView
@@ -24,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/Heading"
+        android:gravity="center"
         android:text="Total Items" />
 
     <TextView
@@ -31,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/Heading"
+        android:gravity="center"
         android:text="Total Price" />
 
     <TextView
@@ -38,5 +42,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/Heading"
+        android:gravity="center"
         android:text="Contact" />
 </LinearLayout>

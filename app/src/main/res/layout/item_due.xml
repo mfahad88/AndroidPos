@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
     android:weightSum="5">
 
     <TextView
@@ -11,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/DueBody"
+        android:gravity="center"
         android:id="@+id/textInvoiceNo"
         tools:text="InvoiceNo" />
 
@@ -19,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/DueBody"
+        android:gravity="center"
         android:id="@+id/textCustomerName"
         tools:text="CustomerName" />
 
@@ -27,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/DueBody"
+        android:gravity="center"
         android:id="@+id/textTotalItems"
         tools:text="Total Items" />
 
@@ -35,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/DueBody"
+        android:gravity="center"
         android:id="@+id/textTotalPrice"
         tools:text="Total Price" />
 
@@ -43,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         style="@style/DueBody"
+        android:gravity="center"
         android:id="@+id/textContact"
         tools:text="Contact" />
 
