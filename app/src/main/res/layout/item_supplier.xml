@@ -13,7 +13,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:id="@+id/textName"
-        android:text="Name" />
+        tools:text="Name" />
 
     <TextView
         android:layout_width="0dp"
@@ -21,7 +21,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:id="@+id/textContact"
-        android:text="Contact" />
+        tools:text="Contact" />
 
     <TextView
         android:layout_width="0dp"
@@ -29,24 +29,40 @@
         android:layout_weight="1"
         android:gravity="center"
         android:id="@+id/textAddress"
-        android:text="Address" />
+        tools:text="Address" />
 
 
-    <TextView
+    <CheckBox
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.5"
         android:gravity="center"
-        android:text="IsActive" />
+        android:id="@+id/checkBox"
+       />
 
-    <TextView
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1.4"
         android:weightSum="2"
         android:gravity="center"
-        android:text="Status"/>
+        android:orientation="horizontal">
 
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"
+            android:text="edit"
+            android:id="@+id/btnEdit"/>
 
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:text="Cancel"
+            android:id="@+id/btnCancel"/>
+    </LinearLayout>
 
 </LinearLayout>

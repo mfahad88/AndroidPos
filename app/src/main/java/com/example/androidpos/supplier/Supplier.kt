@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "Supplier")
 data class Supplier(@PrimaryKey(autoGenerate = true) val id: Int?,
-                    @Ignore val viewType:Int,
+                    @Ignore val viewType: Int?,
                     val name:String,
                     val contactNo:String,
                     val address:String,
@@ -16,4 +16,6 @@ data class Supplier(@PrimaryKey(autoGenerate = true) val id: Int?,
 ){
     constructor(viewType:Int,name:String,contactNo:String, address:String) :
             this(null, viewType,name,contactNo,address,null,null)
+    constructor(name:String,contactNo:String, address:String) :
+            this(null, null,name,contactNo,address,null,null)
 }
